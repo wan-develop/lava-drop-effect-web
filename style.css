@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: fantasy;
+}
+
+body {
+    background-color: black;
+}
+
+:root {
+    --primary: hsl(65deg, 80%, 50%);
+}
+
+header {
+
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+
+    background-color: var(--primary);
+
+    box-shadow: 0 10px 10px 10px red;
+    width: 100vw;
+    height: 100px;
+
+    overflow: hidden;
+    
+
+}
+
+
+
+.animated-char {
+    color: hsl(45deg, 80%, 50%);
+    text-shadow: 0 0 10px hsl(0deg, 50%, 50%);
+    transition: text-shadow 50ms ease;
+}
+
+.animated-char:hover {
+    text-shadow: 0 6px 5px #f40;
+    
+}
+
+
+
+
+
+
+#canvas1 {
+
+    filter: blur(5px) contrast(100);
+
+    border: none;
+
+}
+
+#container {
+
+    overflow: hidden;
+}
