@@ -7,7 +7,7 @@ quando execultada usando canvas e javascript pode-se criar diversos effeitos vis
 
 
 # Mini Tutorial
-## Simplismente aplique este filtro ao seu canvas
+## Simplesmente aplique este filtro ao seu elemento canvas
 ```
 canvas {
   filter: blur(5px) contrast(100);
